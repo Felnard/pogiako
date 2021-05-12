@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    margin: 0;
+    font-size:15px;
+}
+
+/* main */
+
+main{
+    width: 1240px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+    height:100vh;
+    border-radius: 60px;
+   
+}
+
+.gilid{
+    
+    margin: 5rem;
+}
+
+.left{
+    width:50%;
+    height:50%;
+    background-color:hsl(244, 38%, 16%);
+}
+
+h1{
+    font-size:2.5rem;
+    color:white;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+
+p{
+    color: rgb(209, 205, 205);
+    font-size:1.1rem;
+    line-height:1.4em;
+    
+    font-family: Inter;
+}
+span{
+    color:hsl(277, 64%, 61%);
+}
+
+h2{
+    color:white;
+    display:inline-block;
+    margin-right:2.3em;
+    font-size: 1.8em;
+    
+    font-family: Inter;
+    
+}
+
+h2 span{
+    color:rgb(209, 205, 205);
+    display:block;
+    text-transform: uppercase;
+    font-size:.5em;
+    margin-top: 5px;
+    
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+.help{
+    margin-top: 3em;
+}
+
+
+.right{
+    
+    width:50%;
+    height:50%;
+    background-color:hsl(277, 64%, 61%);
+}
+
+img{
+    width:100%;
+    height:100%;
+    opacity: .3;
+}
+
+
+
+.attribution {
+     font-size: 11px; text-align: center; 
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
