@@ -1,7 +1,7 @@
 body{
 
     display:flex;
-    background-color: hsl(233, 43%, 18%);
+    background-color: hsl(234, 37%, 26%);
     padding: 0;
     font-size:15px;
     flex-direction: column;
@@ -21,6 +21,7 @@ main{
     background-color:hsl(244, 38%, 16%);
     max-width: 500px;
     margin: 0 auto;
+    box-shadow: 0 7px 20px 0 hsl(244, 40%, 14%);
 }
 
 
@@ -42,6 +43,13 @@ h1{
     font-family: Inter;
     font-weight: 700;
     color:hsl(0, 0%, 100%);
+    
+}
+
+
+.baba>h1:hover{
+
+    color:hsl(277, 64%, 61%);
 }
 span{
     color:  hsl(277, 64%, 61%);
@@ -105,7 +113,7 @@ p.space{
 
     .left{
         display:flex;
-        width:50%;
+        width:40%;
         flex-wrap: wrap;
         padding: 40px 60px;
 
@@ -133,7 +141,5 @@ p.space{
         font-size:1rem;
         line-height: 1.7;
     } 
-    
-
 }
 
